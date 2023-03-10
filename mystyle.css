@@ -1,35 +1,49 @@
 css
 header {
-    background-color: #007620;
-    color: #fff;
-    padding: 100px;
+    background-color: #fdfdfd;
+    color: #000000;
+    padding: 50px;
+}
+
+header h1{
     text-align: center;
+    color: #8039d6;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    background-color: #3A81CC;
-    padding: 20px;
+    background-color: #54a2f5;
+    padding: 25px;
+    margin: 5px 0px;
 }
 
 nav a {
-    
     color: #fff;
-    margin: 0 20px;
-    
+    margin: 0 25px;
 }
 
 .body-container{
-    background-color: #014E69;
+    background-color: #1e596e;
     color: #fff;
     text-align: center;
-    padding: 300px;
+    padding: 200px;
+    margin: 5px 0px;
+}
+
+aside{
+    width: 40%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: #9058d4;
+    color: rgb(7, 7, 7);
 }
 
 footer {
-    background-color: #41117D;
+    background-color: #8039d6;
     color: #fff;
-    padding: 30px;
+    padding: 15px;
     text-align: center;
 }
